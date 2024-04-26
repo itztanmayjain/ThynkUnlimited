@@ -29,7 +29,7 @@
 
        <div class="box">
            <h3>Quick links</h3>
-           <a href="home.php"> <i class="fas fa-arrow-right"></i> Home</a>
+           <a href="afterlogin.php"> <i class="fas fa-arrow-right"></i> Home</a>
            <a href="about.php"> <i class="fas fa-arrow-right"></i> About</a>
            <a href="Alumni.php"> <i class="fas fa-arrow-right"></i> Alumni</a>
            <a href="blog.php"> <i class="fas fa-arrow-right"></i> Blog</a>
@@ -37,7 +37,7 @@
 
        <div class="box">
            <h3>Extra links</h3>
-           <a href="login.php"> <i class="fas fa-arrow-right"></i> My Account </a>
+           <a href="profile.php"> <i class="fas fa-arrow-right"></i> My Account </a>
            <a href="contact.php"> <i class="fas fa-arrow-right"></i> Contact Us</a>
            <a href="policy.php"> <i class="fas fa-arrow-right"></i> Privacy Policy </a>
            <a href="t&c.php"> <i class="fas fa-arrow-right"></i> Terms & Conditions</a>
