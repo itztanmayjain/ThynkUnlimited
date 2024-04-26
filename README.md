@@ -51,4 +51,7 @@ ThynkUnlimited is an eLearning platform designed to provide a comprehensive onli
 
 ## Additional Information
 - **Note:** The SQL file containing the database schema and initial data is hidden for security reasons. Please contact the project administrator for access if needed.
+  
+## Authors
+ [Tanmay Jain](https://github.com/itztanmayjain)
 
