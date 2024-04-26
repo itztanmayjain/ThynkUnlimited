@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
+
+
+#course-inner
+{
+    display: flex ;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8vw;
+}
+
+#course-inner h3
+{
+    padding: 35px 0 25px 0;
+    color: #222;
+    font-size: 20px;
+}
+
+#course-inner p
+{
+    color: #222;
+    font-size: 15px;
+}
+
+#course-inner hr
+{
+    height: 1px;
+    background: rgba(236,226,229,0.5);
+    margin-top: 40px;
+}
+
+
+#course-inner .overview
+{
+    width: 70%;
+} 
+
+#course-inner .overview #course-img
+{
+    height:60vh;
+    width:100%;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+#course-inner .overview .course-head
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+#course-inner .overview .couse-name
+{
+    width: 70%;
+}
+
+#course-inner .overview .course-name h2
+{
+color: #222;
+}
+
+
+
+
+#course-inner .overview .course-head span
+{
+    padding: 16px 13px;
+    border-radius: 5px;
+    color: rgb(255, 129, 91);
+    font-size: 24px;
+    font-weight: 700;
+    background-color: rgb(255, 229, 205);
+}
+
+#course-inner .learn p
+{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+#course-inner .learn p i
+{
+color: tomato;
+font-weight: 700;
+margin-right: 20px;
+}
+
+#course-inner .enroll
+{
+    width: 300px;
+    padding: 0 30px 30px 30px;
+    border-radius: 11px;
+    border: #222 solid;
+    margin-left: 90px;
+}
+
+#course-inner .enroll h3
+{
+    padding-bottom: 10px;
+}
+
+#course-inner .enroll p
+{
+    font-size: 14px;
+    color: #222;
+    margin: 15px 0;
+}
+
+#course-inner .enroll p i
+{
+color: rgb(252, 130, 109);
+margin-right: 18px;
+width: 16px;
+height: 16px;
+line-height: 16px;
+text-align: center;
+}
+
+#course-inner .enroll .enrollbtn
+{
+    padding: 25px 0 20px 0;
+    margin: auto;
+    text-align: center;
+}
+
+#course-inner .enroll .enrollcolor
+{
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 13px 45px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: aliceblue;
+    background-color: tomato;
+}
+
+@media (max-width: 769px)
+{
+    #course-inner
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 8vh 4vw;
+    }
+    #course-inner .overview
+    {   
+        width: 100%;
+    }
+}
+
+@media (max-width: 475px)
+{
+    #course-inner .overview .course-head .course-name
+    {
+        width: 50%;
+    }
+
+    #course-inner .overview .course-head .course-name h2
+    {
+        font-size: 22px;
+    }
+
+    #course-inner .overview .course-head span
+    {
+        font-size: 22px;
+    }
+}
+
+

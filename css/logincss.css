@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+  .main-page{
+      margin: 2px;
+  }
+
+  .main-page .topnav{
+    position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #ffffff87;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 9%;
+  }
+
+  .main-page .logo i 
+{
+  color: #FF725E;
+  padding-right: .5rem;
+}
+
+.main-page  a.logo 
+{
+  font-size: 1.7rem;
+  color: #000;
+  margin: 0 1rem;
+}
+
+  .main-page .login-box{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255)    ;
+    top: 10rem;
+    left: 35%;
+    padding: 1.5rem;
+    position: fixed;
+    border-radius: .2rem;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+
+  .main-page .login-box h3{
+    width: 100%;
+    color: #6a6767;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: .7rem;
+  }
+
+  .main-page .login-box h5{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .main-page .login-box .box 
+{
+  height: 45px;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 1rem 1.2rem;
+  font-size: 15px;
+  color: #222;
+  text-transform: none; 
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.main-page .login-box .remember
+ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: .5rem;
+  margin: .7rem 0;
+}
+
+.main-page .login-box .remember label 
+{
+  font-size: 13px;
+  color: #666;
+  cursor: pointer;
+}
+
+.main-page .login-box .btn
+ {
+  margin: 0.5rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+.btn 
+{
+  display: inline-block;
+  padding: .5rem 3rem;
+  background: #FF725E;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-width: 0px;
+  transition: ease-in 0.5s;
+}
+
+.signin{
+  display: none;
+}
+
+.btn:hover 
+{
+  background: #222;
+}
+
+.google-btn {
+    width: 100%;
+    background-color: #fdfdfd;
+    color: rgb(8, 8, 8);
+    padding: .5rem 3rem;
+    text-align: center;
+    border-radius: .1rem;
+    border: 1px solid #d6d5d5;
+}
+ 
+img{
+
+    width: 5%;
+}
+
+.main-page .login-box p
+ {
+  color: #666;
+  padding-top: .7rem;
+  font-size: 0.8rem;
+}
+
+.main-page .login-box p a 
+{
+  color: #FF725E;
+}
+
+.main-page .login-box p a:hover
+ {
+  text-decoration: underline;
+}
+
+@media(max-width: 1100px){
+
+  html {
+    font-size: 70%;
+  }
+
+  .main-page .login-box{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    top: 20rem;
+    left: 30%;
+    padding: 1.5rem;
+    position: fixed;
+    border-radius: .2rem;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+
+  .main-page a.logo {
+    font-size: 2.2rem;
+  }
+
+  .google-btn {
+    width: 100%;
+    background-color: #fdfdfd;
+    color: rgb(8, 8, 8);
+    padding: 0.8rem 3rem;
+    text-align: center;
+    border-radius: 0.1rem;
+    border: 1px solid #d6d5d5;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+
+  img {
+    width: 6%;
+    padding-right: 5px;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0.8rem 3rem;
+    background: #FF725E;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-width: 0px;
+  }
+}
+
+@media (max-width: 800px)
+{
+  .main-page .login-box {
+    width: 100%;
+    max-width: 550px;
+    top: 20rem;
+    left: 15%;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 600px)
+{
+  .main-page .login-box {
+    width: 98%;
+    max-width: 600px;
+    top: 20rem;
+    left: 1%;
+    padding: 1.5rem;
+    position: fixed;
+  }
+
+  input#btnsignin {
+    display: none;
+  }
+
+  .signin{
+    display: inline;
+  }
+}
